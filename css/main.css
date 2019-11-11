@@ -8,12 +8,23 @@ body{
   background-image: linear-gradient(to top, #ff5e3a, #ff9500);
 }
 
-.btn-ghost{
+.btn-ghost {
   color: #fff;
   text-decoration: none;
   border: 2px solid #fff;
 }
 
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff5e3a;
+}
+
 .i-192 {
   color: #fff;
+}
+
+.super,
+.mecha {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
