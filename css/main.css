@@ -1,10 +1,10 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   background-color: #ff5e3a;
   color: #fff;
 }
 
-body{
+body {
   background-image: linear-gradient(to top, #ff5e3a, #ff9500);
 }
 
@@ -25,6 +25,16 @@ body{
 }
 
 .super,
-.mecha {
-  border-bottom: 2px solid rgba(255, 255, 255, 1);
+.space {
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .super,
+  .space {
+    border-bottom: hidden;
+    border-right: 2px solid rgba(255, 255, 255, .5);
+  }
+
 }
